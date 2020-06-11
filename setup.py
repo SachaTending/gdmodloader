@@ -24,14 +24,14 @@ extras_require = {
 setup(
     name="gdmodloader",
     author="SpookyBear0",
-    author_email="gdpy13@gmail.com",
+    author_email="collinmcarroll@gmail.com",
     url="https://github.com/SpookyBear0/gdmodloader",
     project_urls={
         "Documentation": "https://gdmodloader.readthedocs.io/en/latest",
         "Issue tracker": "https://github.com/SpookyBear0/gdmodloader/issues",
     },
     version=version,
-    packages=["modloader"],
+    packages=["gdmodloader", "gdmodloader.sdk"],
     license="MIT",
     description="ModLoader for Geometry Dash, written in Python",
     long_description=readme,
