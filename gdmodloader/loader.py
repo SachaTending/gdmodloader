@@ -1,6 +1,5 @@
 import gd
 import os
-import argparse
 import gdmodloader.errors
 import gdmodloader.sdk
 class Loader:
@@ -19,9 +18,6 @@ class Loader:
             elif mod.endswith(".py"):
                 f = open(modpath, "r")
                 gdmodloader.sdk.main(f.read())
-parser = argparse.ArgumentParser()
-parser.add_argument("--start", help="Start the loader", action="store_true")
-args = parser.parse_args()
 def start_loader():
     MOD_LOADER_DIR = os.getenv("localappdata") + "\\.gdmodloader\\"
     if not os.path.exists(MOD_LOADER_DIR):

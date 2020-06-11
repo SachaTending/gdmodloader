@@ -1,8 +1,8 @@
 import gd.memory
-memory = gd.memory.get_memory()
-
-def main(code):
-    exec(code)
+try:
+    memory = gd.memory.get_memory()
+except RuntimeError:
+    pass
 
 def get_percent():
     return memory.get_percent()

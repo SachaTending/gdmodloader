@@ -1,5 +1,8 @@
 import gd.memory
-memory = gd.memory.get_memory()
+try:
+    memory = gd.memory.get_memory()
+except RuntimeError:
+    pass
 
 def set_x_pos(x):
     memory.set_x_pos(x)

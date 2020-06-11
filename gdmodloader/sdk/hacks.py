@@ -1,5 +1,8 @@
 import gd.memory
-memory = gd.memory.get_memory()
+try:
+    memory = gd.memory.get_memory()
+except RuntimeError:
+    pass
 
 def player_freeze():
     memory.player_freeze()
