@@ -1,7 +1,7 @@
-Welcome to gd.modloader's documentation!
+Welcome to gdmodloader's documentation!
 ========================================
 
-gd.modloader is a modern, easy to use, feature-rich, ModLoader for Geometry Dash.
+gdmodloader is a modern, easy to use, feature-rich, ModLoader for Geometry Dash.
 
 **Features:**
 

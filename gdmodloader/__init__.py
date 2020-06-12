@@ -1,5 +1,5 @@
-from gdmodloader.loader import *
-from gdmodloader.errors import *
+import gdmodloader.loader
+import gdmodloader.errors
 from gdmodloader import (
     sdk,
 )

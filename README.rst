@@ -1,4 +1,4 @@
-gd.modloader
+gdmodloader
 ============
 
 .. image:: https://img.shields.io/pypi/l/gd.modloader.svg
@@ -49,7 +49,7 @@ To install the library, you can just run the following command:
 .. code:: sh
 
     # Windows
-    py -3 -m pip install -U gd.modloader
+    py -3 -m pip install -U gdmodloader
 
 Development Version
 -------------------
@@ -58,16 +58,14 @@ You can install development version from GitHub:
 
 .. code:: sh
 
-    $ git clone https://github.com/NeKitDS/gd.modloader.git
-    $ cd gd.modloader
-    $ python3 -m pip install -U .
+    pip install -U https://github.com/SpookyBear0/gdmodloader/archive/master.zip
 
 Quick example
 -------------
 
 .. code:: python
 
-    import modloader
+    import gdmodloader
 
     ...
 
@@ -76,10 +74,9 @@ You can find more examples in examples directory.
 Authors
 -------
 
-This project is mainly developed by `NeKitDS <https://github.com/NeKitDS>`_ and `SpookyBear <https://github.com/SpookyBear0>`_
+This project is mainly developed by `SpookyBear <https://github.com/SpookyBear0>`_
 
 Links
 -----
 
-- `Documentation <https://gdmodloader.readthedocs.io/en/latest/index.html>`_
 - `Geometry Dash Discord Server <https://discord.gg/xkgrP29>`_

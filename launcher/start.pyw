@@ -3,7 +3,7 @@ import time
 import subprocess
 def process_exists(process_name):
     call = 'TASKLIST', '/FI', 'imagename eq %s' % process_name
-    output = subprocess.check_output(call).decode()
+    output = subprocess.check_output(call, shell=True).decode()
     last_line = output.strip().split('\r\n')[-1]
     return last_line.lower().startswith(process_name.lower())
 while True:
