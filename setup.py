@@ -6,7 +6,7 @@ root = pathlib.Path(__file__).parent
 
 requirements = (root / "requirements.txt").read_text("utf-8").splitlines()
 
-txt = (root / "modloader" / "__init__.py").read_text("utf-8")
+txt = (root / "gdmodloader" / "__init__.py").read_text("utf-8")
 
 try:
     version = re.search(r'^__version__\s*=\s*[\'"]([^\'"]*)[\'"]', txt, re.MULTILINE).group(1)
@@ -49,7 +49,7 @@ setup(
         "Programming Language :: Python :: 3.9",
         "Intended Audience :: Developers",
         "Natural Language :: English",
-        "Operating System :: Windows",
+        "Operating System :: Microsoft :: Windows",
     ],
     entry_points={"console_scripts": ["modloader = modloader.__main__:main"]},
 )
