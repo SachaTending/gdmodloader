@@ -1,7 +1,7 @@
 gdmodloader
 ============
 
-.. image:: https://img.shields.io/pypi/l/gdmodloader.svg
+.. image:: https://img.shields.io/badge/License-MIT-green.svg
     :target: https://opensource.org/licenses/MIT
     :alt: Project License
 
