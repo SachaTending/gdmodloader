@@ -38,11 +38,9 @@ Installing
 
 **Python 3.6 or higher is required**
 
-Before installation, make sure you have latest ``gd.py`` version:
+To install the launcher, download the launcher.zip from releases and then run the installer.py, the installer.py should install the modloader.
 
-.. code:: sh
-
-    py -3 -m pip install -U https://github.com/NeKitDS/gd.py/archive/master.zip
+After installing the modloader, restart your computer so the modloader runs when you start Geometry Dash.
 
 To install the library, you can just run the following command:
 
