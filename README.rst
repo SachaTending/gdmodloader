@@ -74,7 +74,7 @@ You can find more examples in examples directory.
 Authors
 -------
 
-This project is mainly developed by `SpookyBear <https://github.com/SpookyBear0>`_
+This project is mainly developed by `SpookyBear0 <https://github.com/SpookyBear0>`_
 
 Links
 -----
