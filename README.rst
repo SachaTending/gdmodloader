@@ -25,7 +25,7 @@ gdmodloader
     :target: https://gdmodloader.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
 
-gd.modloader is a library that implements modloader for Geometry Dash.
+gdmodloader is a library that implements modloader for Geometry Dash.
 
 Key Features
 ------------
