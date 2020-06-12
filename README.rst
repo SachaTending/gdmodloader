@@ -1,24 +1,24 @@
 gdmodloader
 ============
 
-.. image:: https://img.shields.io/pypi/l/gd.modloader.svg
+.. image:: https://img.shields.io/pypi/l/gdmodloader.svg
     :target: https://opensource.org/licenses/MIT
     :alt: Project License
 
-.. image:: https://img.shields.io/pypi/v/gd.modloader.svg
-    :target: https://pypi.python.org/pypi/gd.modloader
+.. image:: https://img.shields.io/pypi/v/gdmodloader.svg
+    :target: https://pypi.python.org/pypi/gdmodloader
     :alt: PyPI Library Version
 
-.. image:: https://img.shields.io/pypi/pyversions/gd.modloader.svg
-    :target: https://pypi.python.org/pypi/gd.modloader
+.. image:: https://img.shields.io/pypi/pyversions/gdmodloader.svg
+    :target: https://pypi.python.org/pypi/gdmodloader
     :alt: Required Python Versions
 
-.. image:: https://img.shields.io/pypi/status/gd.modloader.svg
-    :target: https://github.com/NeKitDS/gd.modloader/blob/master/modloader
+.. image:: https://img.shields.io/pypi/status/gdmodloader.svg
+    :target: https://github.com/SpookyBear0/gdmodloader/blob/master/gdmodloader
     :alt: Project Development Status
 
-.. image:: https://img.shields.io/pypi/dw/gd.modloader.svg
-    :target: https://pypi.python.org/pypi/gd.modloader
+.. image:: https://img.shields.io/pypi/dw/gdmodloader.svg
+    :target: https://pypi.python.org/pypi/gdmodloader
     :alt: Library Downloads/Week
 
 .. image:: https://readthedocs.org/projects/gdmodloader/badge/?version=latest
