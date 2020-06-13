@@ -6,4 +6,4 @@ from gdmodloader import (
 __title__ = "gdmodloader"
 __author__ = "SpookyBear0"
 __license__ = "MIT"
-__version__ = "0.1.1"
+__version__ = "0.1.4"
