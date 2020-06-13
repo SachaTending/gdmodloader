@@ -1,4 +1,4 @@
-import gd.memory
+import gd
 import time
 import subprocess
 def process_exists(process_name):
